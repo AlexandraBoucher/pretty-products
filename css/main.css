@@ -20,6 +20,8 @@ article {
   border: 3px solid #987ffa;
   border-radius: 6px;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -31,18 +33,20 @@ h2 {
   font-family: "Oswald", sans-serif;
   color: #6f00e7;
   font-size: 2rem;
+  margin: 0;
 }
 
 p {
   text-align: center;
   font-size: 1.4rem;
+  margin: 0 0 auto;
 }
 
 ul {
   display: flex;
   list-style-type: none;
-  justify-content: space-between;
   align-items: center;
+  padding: 0;
 }
 
 .cart {
@@ -52,6 +56,7 @@ ul {
   padding: .5em 1.5em .7em;
   border-radius: 3em;
   margin-right: auto;
+
 
 }
 
@@ -63,4 +68,8 @@ li a {
   text-decoration: none;
   color: white;
   display: flex;
+}
+
+li {
+  padding: .25em;
 }
